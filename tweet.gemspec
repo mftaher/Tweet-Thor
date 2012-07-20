@@ -13,6 +13,6 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "tweet"
   gem.require_paths = ["lib"]
-  gem.version       = Tweet::VERSION
+  gem.version       = "0.1.0"
   gem.add_runtime_dependency "thor"
 end
