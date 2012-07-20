@@ -14,4 +14,5 @@ Gem::Specification.new do |gem|
   gem.name          = "tweet"
   gem.require_paths = ["lib"]
   gem.version       = Tweet::VERSION
+  gem.add_runtime_dependency "thor"
 end
